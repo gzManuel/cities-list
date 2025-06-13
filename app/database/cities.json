@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "La Paz",
+      "department": "La Paz",
+      "population": 816000
+    },
+    {
+      "id": 2,
+      "name": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "population": 1900000
+    },
+    {
+      "id": 3,
+      "name": "Cochabamba",
+      "department": "Cochabamba",
+      "population": 841000
+    },
+    {
+      "id": 4,
+      "name": "Sucre",
+      "department": "Chuquisaca",
+      "population": 300000,
+      "note": "Constitutional capital"
+    },
+    {
+      "id": 5,
+      "name": "Oruro",
+      "department": "Oruro",
+      "population": 285000
+    },
+    {
+      "id": 6,
+      "name": "Potosí",
+      "department": "Potosí",
+      "population": 270000
+    },
+    {
+      "id": 7,
+      "name": "Tarija",
+      "department": "Tarija",
+      "population": 240000
+    }
+  ]
+  
