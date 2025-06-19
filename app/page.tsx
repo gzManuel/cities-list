@@ -90,10 +90,11 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         {/* Create an visited cities list app with the following requirements
               1. Has a form with an input and a label called new city
-              2. The form has an input list to sort from A-Z, Z-A and the default
-              3. A button that when you click it add a new city to the list 
-              4. If a city it's already added show a message that there is a city with that name. 
-              5. A list of the cities
+              2. A button that when you click it add a new city to the list 
+              3. If a city it's already added show a message that there is a city with that name. 
+              4. A list of the cities that shows them when the delete it's === false
+              6. If you click any of those cities, you remove it, and change it's state to deleted
+              5. The form has an input list to sort the list from A-Z, Z-A and the default 
         */}
 
         <div>
