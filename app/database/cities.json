@@ -3,44 +3,51 @@
       "id": 1,
       "name": "La Paz",
       "department": "La Paz",
-      "population": 816000
+      "population": 816000,
+      "deleted":false
     },
     {
       "id": 2,
       "name": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
-      "population": 1900000
+      "population": 1900000,
+      "deleted":false
     },
     {
       "id": 3,
       "name": "Cochabamba",
       "department": "Cochabamba",
-      "population": 841000
+      "population": 841000,
+      "deleted":false
     },
     {
       "id": 4,
       "name": "Sucre",
       "department": "Chuquisaca",
       "population": 300000,
-      "note": "Constitutional capital"
+      "note": "Constitutional capital",
+      "deleted":false
     },
     {
       "id": 5,
       "name": "Oruro",
       "department": "Oruro",
-      "population": 285000
+      "population": 285000,
+      "deleted":false
     },
     {
       "id": 6,
       "name": "Potosí",
       "department": "Potosí",
-      "population": 270000
+      "population": 270000,
+      "deleted":false
     },
     {
       "id": 7,
       "name": "Tarija",
       "department": "Tarija",
-      "population": 240000
+      "population": 240000,
+      "deleted":false
     }
   ]
   
