@@ -10,7 +10,7 @@ interface City {
   deleted: boolean;
 }
 
-type SortType = "normal" | "a-z" | "z-a";
+export type SortType = "normal" | "a-z" | "z-a";
 
 export default function Home() {
   const [cities, setCities] = useState<Array<City>>(importedCities);
@@ -113,7 +113,11 @@ export default function Home() {
               </div>
 
               {error && (
-                <span className="text-red-500">{`Error: The city ${inputCity} you've entered already exist`}</span>
+                <span
+                  className="text-red-500"
+                  aria-invalid="true"
+                  aria-errormessage="err1"
+                >{`Error: The city ${inputCity} you've entered already exist`}</span>
               )}
             </div>
             <div className="flex gap-1">
